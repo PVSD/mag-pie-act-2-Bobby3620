@@ -50,6 +50,24 @@ public class Magpie2
 			response = "Your teacher sounds amazing!";
 		}
 
+		else if(statement.indexOf("sure") >= 0){
+			response = "Okay!";
+		}
+
+
+		else if(statement.indexOf("hello") >= 0){
+			response = "Hello";
+		}
+
+		else if(statement.indexOf("how are you") >= 0){
+			response = "Im well! How are you?";
+		}
+
+
+
+
+
+
 		else {
 			response = getRandomResponse();
 		}
